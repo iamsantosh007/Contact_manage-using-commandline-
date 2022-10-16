@@ -4,7 +4,7 @@ public class main {
     static mobile m=new mobile();
     static Scanner sc=new Scanner(System.in);
     public static void main(String[] args) {
-        if(start()==false){
+        while(!start()){
             start();
         }
     }
